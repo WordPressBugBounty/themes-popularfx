@@ -6,9 +6,9 @@ License URI: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, entertainment, full-width-template, one-column, two-columns, left-sidebar, e-commerce, right-sidebar, microformats, post-formats, theme-options, blog, rtl-language-support
 
 Requires at least: 4.5
-Tested up to: 6.0
+Tested up to: 6.7
 Requires PHP: 5.5
-Stable tag: 1.2.5
+Stable tag: 1.2.6
 
 A starter theme called PopularFX.
 
@@ -39,6 +39,11 @@ Features :
 PopularFX includes support for Pagelayer, WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+
+= 1.2.6 - Nov 09 2024 =
+* [Task] Tested compatibility with WordPress 6.7.
+* [Security-fix] Some strings were not translated. This is fixed.
+
 = 1.2.5 - Feb 02 2024 =
 * [Security-fix] There was a privilege check failure which has been fixed.
 

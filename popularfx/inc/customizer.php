@@ -546,7 +546,7 @@ function popularfx_customize_register( $wp_customize ) {
 	$wp_customize->add_panel( 'popularfx_global', array(
 			'capability' => 'edit_theme_options',
 			'priority'   => 2,
-			'title'      => __( 'Global','popularfx')
+			'title'      => __( 'Global', 'popularfx')
 	) );
 		
 	$wp_customize->add_panel( 'typography', array(
@@ -942,7 +942,7 @@ function popularfx_customize_register( $wp_customize ) {
 	$wp_customize->add_control( new Popularfx_Customize_Alpha_Color_Control(
 		$wp_customize, 'pfx_scrolltop_bg_color', array(
 			'section' => 'popularfx_scrolltop',
-			'description' => 'Set background color for scrolltop',
+			'description' => __('Set background color for scrolltop', 'popularfx'),
 			'settings' => 'pfx_scrolltop_bg_color',
 			'label' => __('Background Color', 'popularfx' ),
 			'show_opacity' => true
@@ -959,7 +959,7 @@ function popularfx_customize_register( $wp_customize ) {
 	$wp_customize->add_control( new Popularfx_Customize_Alpha_Color_Control(
 		$wp_customize, 'pfx_scrolltop_color', array(
 			'section' => 'popularfx_scrolltop',
-			'description' => 'Set icon color for scrolltop',
+			'description' => __('Set icon color for scrolltop', 'popularfx'),
 			'settings' => 'pfx_scrolltop_color',
 			'label' => __('Icon Color', 'popularfx' ),
 			'show_opacity' => true
@@ -976,9 +976,9 @@ function popularfx_customize_register( $wp_customize ) {
 	$wp_customize->add_control( new Popularfx_Customize_Alpha_Color_Control(
 		$wp_customize, 'pfx_scrolltop_bg_hover_color', array(
 			'section' => 'popularfx_scrolltop',
-			'description' => 'Set hover background color for scrolltop',
+			'description' => __('Set hover background color for scrolltop', 'popularfx'),
 			'settings' => 'pfx_scrolltop_bg_hover_color',
-			'label' => __('OnHover Background Color', 'popularfx' ),
+			'label' => __('On Hover Background Color', 'popularfx' ),
 			'show_opacity' => true
 		)
 	) );
@@ -993,9 +993,9 @@ function popularfx_customize_register( $wp_customize ) {
 	$wp_customize->add_control( new Popularfx_Customize_Alpha_Color_Control(
 		$wp_customize, 'pfx_scrolltop_hover_color', array(
 			'section' => 'popularfx_scrolltop',
-			'description' => 'Set hover color for scrolltop',
+			'description' => __('Set hover color for scrolltop', 'popularfx'),
 			'settings' => 'pfx_scrolltop_hover_color',
-			'label' => __('OnHover Icon Color', 'popularfx' ),
+			'label' => __('On Hover Icon Color', 'popularfx' ),
 			'show_opacity' => true
 		)
 	) );
@@ -1010,7 +1010,7 @@ function popularfx_customize_register( $wp_customize ) {
 	$wp_customize->add_control( new Popularfx_Customize_Alpha_Color_Control(
 		$wp_customize, 'pfx_scrolltop_border_color', array(
 			'section' => 'popularfx_scrolltop',
-			'description' => 'Set border color for scrolltop',
+			'description' => __('Set border color for scrolltop', 'popularfx'),
 			'settings' => 'pfx_scrolltop_border_color',
 			'label' => __('Border Color', 'popularfx' ),
 			'show_opacity' => true
@@ -1027,9 +1027,9 @@ function popularfx_customize_register( $wp_customize ) {
 	$wp_customize->add_control( new Popularfx_Customize_Alpha_Color_Control(
 		$wp_customize, 'pfx_scrolltop_hover_border_color', array(
 			'section' => 'popularfx_scrolltop',
-			'description' => 'Set hover border color for scrolltop',
+			'description' => __('Set hover border color for scrolltop', 'popularfx'),
 			'settings' => 'pfx_scrolltop_hover_border_color',
-			'label' => __('OnHover Border Color', 'popularfx' ),
+			'label' => __('On Hover Border Color', 'popularfx' ),
 			'show_opacity' => true
 		)
 	) );

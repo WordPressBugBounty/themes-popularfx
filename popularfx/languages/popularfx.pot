@@ -2,7 +2,7 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: popularfx 1.2.4\n"
+"Project-Id-Version: popularfx 1.2.6\n"
 "Report-Msgid-Bugs-To: https://popularfx.com/\n"
 "Last-Translator: Pulkit Gupta <support@popularfx.com>\n"
 "MIME-Version: 1.0\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2020-04-17T21:03:15+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: PopularFX 1.2.4\n"
+"X-Generator: PopularFX 1.2.6\n"
 "X-Domain: popularfx\n"
 
 #. Theme Name of the theme
